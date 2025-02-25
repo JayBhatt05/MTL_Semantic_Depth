@@ -55,8 +55,8 @@ def validate(model, dataloader, criterion, device):
 
 
 if __name__ == "__main__":
-    train_dir = '/home/22ucs095/BTP/CityScapes/train'
-    val_dir = '/home/22ucs095/BTP/CityScapes/test'
+    train_dir = '/CityScapes/train'
+    val_dir = '/CityScapes/test'
     
     BATCH_SIZE = 8
     LEARNING_RATE = 5e-4
